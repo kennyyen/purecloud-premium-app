@@ -1,12 +1,13 @@
 export default {
-    clientID: 'e7de8a75-62bb-43eb-9063-38509f8c21af',
+    // clientID: 'e7de8a75-62bb-43eb-9063-38509f8c21af',
+    clientID: 'aa60086c-716b-4f0c-9d51-18083795e25e',
 
-    // 'wizardUriBase': 'http://localhost:8080/wizard/',
-    wizardUriBase: 'https://mypurecloud.github.io/purecloud-premium-app/wizard/',
+    wizardUriBase: 'http://localhost:8080/wizard/',
+    // wizardUriBase: 'https://mypurecloud.github.io/purecloud-premium-app/wizard/',
 
     // The actual URL of the landing page of your web app.
-    // 'premiumAppURL': 'http://localhost:8080/premium-app-sample/index.html',
-    premiumAppURL: 'https://mypurecloud.github.io/purecloud-premium-app/premium-app-sample/index.html',
+    premiumAppURL: 'http://localhost:8080/premium-app-sample/index.html',
+    // premiumAppURL: 'https://mypurecloud.github.io/purecloud-premium-app/premium-app-sample/index.html',
 
     // Genesys Cloud assigned name for the premium app
     // This should match the integration type name of the Premium App
@@ -24,7 +25,7 @@ export default {
     // Default Values for fail-safe/testing. Shouldn't have to be changed since the app
     // must be able to determine the environment from the query parameter 
     // of the integration's URL
-    defaultPcEnvironment: 'mypurecloud.com',
+    defaultPcEnvironment: 'usw2.pure.cloud',
     defaultLanguage: 'en-us',
 
     // The names of the query parameters to check in 

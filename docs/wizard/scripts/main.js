@@ -73,6 +73,7 @@ function setDynamicParameters(){
 function authenticateGenesysCloud(){
     client.setEnvironment(pcEnvironment);
     client.setPersistSettings(true, appName);
+    console.log('9999999999', config.wizardUriBase);
     return client.loginImplicitGrant(
                 config.clientID, 
                 config.wizardUriBase + 'index.html'
